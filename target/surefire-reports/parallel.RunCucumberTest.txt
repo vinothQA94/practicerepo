@@ -1,0 +1,74 @@
+-------------------------------------------------------------------------------
+Test set: parallel.RunCucumberTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 23.25 s <<< FAILURE! - in parallel.RunCucumberTest
+runScenario(parallel.RunCucumberTest)  Time elapsed: 18.286 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=103.0.5060.66)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSI', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.66, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\91807\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52521}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 90aef8b3e705497d4e7f3bd1f3229975
+
+runScenario(parallel.RunCucumberTest)  Time elapsed: 19.464 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created
+from disconnected: received Inspector.detached event
+  (Session info: chrome=103.0.5060.66)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSI', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00B65FD3+2187219]
+	Ordinal0 [0x00AFE6D1+1763025]
+	Ordinal0 [0x00A13E78+802424]
+	Ordinal0 [0x00A06BAE+748462]
+	Ordinal0 [0x00A0679F+747423]
+	Ordinal0 [0x00A05D3F+744767]
+	Ordinal0 [0x00A04C28+740392]
+	Ordinal0 [0x00A050FD+741629]
+	Ordinal0 [0x00A04855+739413]
+	Ordinal0 [0x00A0FA03+784899]
+	Ordinal0 [0x00A04805+739333]
+	Ordinal0 [0x00A058E8+743656]
+	Ordinal0 [0x00A04C28+740392]
+	Ordinal0 [0x00A050FD+741629]
+	Ordinal0 [0x00A04855+739413]
+	Ordinal0 [0x00A0D6F8+775928]
+	Ordinal0 [0x00A04805+739333]
+	Ordinal0 [0x00A058E8+743656]
+	Ordinal0 [0x00A04C28+740392]
+	Ordinal0 [0x00A050FD+741629]
+	Ordinal0 [0x00A04855+739413]
+	Ordinal0 [0x00A0B492+767122]
+	Ordinal0 [0x00A04805+739333]
+	Ordinal0 [0x00A058E8+743656]
+	Ordinal0 [0x00A04C28+740392]
+	Ordinal0 [0x00A050FD+741629]
+	Ordinal0 [0x00A04855+739413]
+	Ordinal0 [0x00A0002D+720941]
+	Ordinal0 [0x00A04805+739333]
+	Ordinal0 [0x00A04590+738704]
+	Ordinal0 [0x00A042D9+738009]
+	Ordinal0 [0x00A151D0+807376]
+	Ordinal0 [0x00A62889+1124489]
+	Ordinal0 [0x00A6144A+1119306]
+	Ordinal0 [0x00A5C9A6+1100198]
+	Ordinal0 [0x00A36F80+946048]
+	Ordinal0 [0x00A37E76+949878]
+	GetHandleVerifier [0x00E090C2+2721218]
+	GetHandleVerifier [0x00DFAAF0+2662384]
+	GetHandleVerifier [0x00BF137A+526458]
+	GetHandleVerifier [0x00BF0416+522518]
+	Ordinal0 [0x00B04EAB+1789611]
+	Ordinal0 [0x00B097A8+1808296]
+	Ordinal0 [0x00B09895+1808533]
+	Ordinal0 [0x00B126C1+1844929]
+	BaseThreadInitThunk [0x753100F9+25]
+	RtlGetAppContainerNamedObjectPath [0x773A7BBE+286]
+	RtlGetAppContainerNamedObjectPath [0x773A7B8E+238]
+
+

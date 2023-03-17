@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="0.497" tests="4" skipped="0" failures="4" errors="0">
+<testcase classname="Scenario Outlines feature file" name="&lt;scen_out_row_num&gt; - Example #1.1" time="0.043">
+<failure/>
+<system-out><![CDATA[
+Given Step from 'Scenario Outline Row 1' in 'scenario-outlines' feature file.undefined
+]]></system-out>
+</testcase>
+<testcase classname="Scenario Outlines feature file" name="&lt;scen_out_row_num&gt; - Example #1.2" time="0.006">
+<failure/>
+<system-out><![CDATA[
+Given Step from 'Scenario Outline Row 2' in 'scenario-outlines' feature file.undefined
+]]></system-out>
+</testcase>
+<testcase classname="Scenarios feature file" name="Scenario Number One" time="0.008">
+<failure/>
+<system-out><![CDATA[
+Given Step from 'Scenario 1' in 'scenarios' feature file....................undefined
+]]></system-out>
+</testcase>
+<testcase classname="Scenarios feature file" name="Scenario Number Two" time="0.015">
+<failure/>
+<system-out><![CDATA[
+Given Step from 'Scenario 2' in 'scenarios' feature file....................undefined
+]]></system-out>
+</testcase>
+</testsuite>

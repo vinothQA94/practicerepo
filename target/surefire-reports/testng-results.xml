@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="5" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-17T19:38:35 IST" name="Surefire suite" finished-at="2023-03-17T19:38:58 IST" duration-ms="22601">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.RunCucumberTest@5552768b]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-03-17T19:38:35 IST" name="Surefire test" finished-at="2023-03-17T19:38:58 IST" duration-ms="22601">
+      <class name="parallel.RunCucumberTest">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:parallel.RunCucumberTest@5552768b]" started-at="2023-03-17T19:38:35 IST" name="setUpClass" finished-at="2023-03-17T19:38:36 IST" duration-ms="284" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7dda48d9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.RunCucumberTest@5552768b]" started-at="2023-03-17T19:38:36 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-17T19:38:55 IST" duration-ms="19325" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Launch the url for amazon"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Check the amazon functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.RunCucumberTest@5552768b]" started-at="2023-03-17T19:38:36 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-17T19:38:55 IST" duration-ms="19231" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Scenario Number Two"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Scenarios feature file"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.RunCucumberTest@5552768b]" started-at="2023-03-17T19:38:36 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-17T19:38:58 IST" duration-ms="22255" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Launching the fb url"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Check the google feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.RunCucumberTest@5552768b]" started-at="2023-03-17T19:38:36 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-17T19:38:55 IST" duration-ms="19490" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Scenario Outline Row 1"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Scenario Outlines feature file"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.RunCucumberTest@5552768b]" started-at="2023-03-17T19:38:36 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-17T19:38:55 IST" duration-ms="18915" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Scenario Outline Row 2"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Scenario Outlines feature file"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.RunCucumberTest@5552768b]" started-at="2023-03-17T19:38:36 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-17T19:38:55 IST" duration-ms="19463" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Scenario Number One"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Scenarios feature file"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[session not created
+from disconnected: received Inspector.detached event
+  (Session info: chrome=103.0.5060.66)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSI', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+Ordinal0 [0x00B65FD3+2187219]
+Ordinal0 [0x00AFE6D1+1763025]
+Ordinal0 [0x00A13E78+802424]
+Ordinal0 [0x00A06BAE+748462]
+Ordinal0 [0x00A0679F+747423]
+Ordinal0 [0x00A05D3F+744767]
+Ordinal0 [0x00A04C28+740392]
+Ordinal0 [0x00A050FD+741629]
+Ordinal0 [0x00A04855+739413]
+Ordinal0 [0x00A0FA03+784899]
+Ordinal0 [0x00A04805+739333]
+Ordinal0 [0x00A058E8+743656]
+Ordinal0 [0x00A04C28+740392]
+Ordinal0 [0x00A050FD+741629]
+Ordinal0 [0x00A04855+739413]
+Ordinal0 [0x00A0D6F8+775928]
+Ordinal0 [0x00A04805+739333]
+Ordinal0 [0x00A058E8+743656]
+Ordinal0 [0x00A04C28+740392]
+Ordinal0 [0x00A050FD+741629]
+Ordinal0 [0x00A04855+739413]
+Ordinal0 [0x00A0B492+767122]
+Ordinal0 [0x00A04805+739333]
+Ordinal0 [0x00A058E8+743656]
+Ordinal0 [0x00A04C28+740392]
+Ordinal0 [0x00A050FD+741629]
+Ordinal0 [0x00A04855+739413]
+Ordinal0 [0x00A0002D+720941]
+Ordinal0 [0x00A04805+739333]
+Ordinal0 [0x00A04590+738704]
+Ordinal0 [0x00A042D9+738009]
+Ordinal0 [0x00A151D0+807376]
+Ordinal0 [0x00A62889+1124489]
+Ordinal0 [0x00A6144A+1119306]
+Ordinal0 [0x00A5C9A6+1100198]
+Ordinal0 [0x00A36F80+946048]
+Ordinal0 [0x00A37E76+949878]
+GetHandleVerifier [0x00E090C2+2721218]
+GetHandleVerifier [0x00DFAAF0+2662384]
+GetHandleVerifier [0x00BF137A+526458]
+GetHandleVerifier [0x00BF0416+522518]
+Ordinal0 [0x00B04EAB+1789611]
+Ordinal0 [0x00B097A8+1808296]
+Ordinal0 [0x00B09895+1808533]
+Ordinal0 [0x00B126C1+1844929]
+BaseThreadInitThunk [0x753100F9+25]
+RtlGetAppContainerNamedObjectPath [0x773A7BBE+286]
+RtlGetAppContainerNamedObjectPath [0x773A7B8E+238]
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created
+from disconnected: received Inspector.detached event
+  (Session info: chrome=103.0.5060.66)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSI', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+Ordinal0 [0x00B65FD3+2187219]
+Ordinal0 [0x00AFE6D1+1763025]
+Ordinal0 [0x00A13E78+802424]
+Ordinal0 [0x00A06BAE+748462]
+Ordinal0 [0x00A0679F+747423]
+Ordinal0 [0x00A05D3F+744767]
+Ordinal0 [0x00A04C28+740392]
+Ordinal0 [0x00A050FD+741629]
+Ordinal0 [0x00A04855+739413]
+Ordinal0 [0x00A0FA03+784899]
+Ordinal0 [0x00A04805+739333]
+Ordinal0 [0x00A058E8+743656]
+Ordinal0 [0x00A04C28+740392]
+Ordinal0 [0x00A050FD+741629]
+Ordinal0 [0x00A04855+739413]
+Ordinal0 [0x00A0D6F8+775928]
+Ordinal0 [0x00A04805+739333]
+Ordinal0 [0x00A058E8+743656]
+Ordinal0 [0x00A04C28+740392]
+Ordinal0 [0x00A050FD+741629]
+Ordinal0 [0x00A04855+739413]
+Ordinal0 [0x00A0B492+767122]
+Ordinal0 [0x00A04805+739333]
+Ordinal0 [0x00A058E8+743656]
+Ordinal0 [0x00A04C28+740392]
+Ordinal0 [0x00A050FD+741629]
+Ordinal0 [0x00A04855+739413]
+Ordinal0 [0x00A0002D+720941]
+Ordinal0 [0x00A04805+739333]
+Ordinal0 [0x00A04590+738704]
+Ordinal0 [0x00A042D9+738009]
+Ordinal0 [0x00A151D0+807376]
+Ordinal0 [0x00A62889+1124489]
+Ordinal0 [0x00A6144A+1119306]
+Ordinal0 [0x00A5C9A6+1100198]
+Ordinal0 [0x00A36F80+946048]
+Ordinal0 [0x00A37E76+949878]
+GetHandleVerifier [0x00E090C2+2721218]
+GetHandleVerifier [0x00DFAAF0+2662384]
+GetHandleVerifier [0x00BF137A+526458]
+GetHandleVerifier [0x00BF0416+522518]
+Ordinal0 [0x00B04EAB+1789611]
+Ordinal0 [0x00B097A8+1808296]
+Ordinal0 [0x00B09895+1808533]
+Ordinal0 [0x00B126C1+1844929]
+BaseThreadInitThunk [0x753100F9+25]
+RtlGetAppContainerNamedObjectPath [0x773A7BBE+286]
+RtlGetAppContainerNamedObjectPath [0x773A7B8E+238]
+
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)
+at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+at parallel.StepLaunchUrl.setup(StepLaunchUrl.java:18)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.RunCucumberTest@5552768b]" started-at="2023-03-17T19:38:36 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-17T19:38:54 IST" duration-ms="18270" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["LAunching the google url"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Check the google feature"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=103.0.5060.66)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSI', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.66, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\91807\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52521}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 90aef8b3e705497d4e7f3bd1f3229975]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=103.0.5060.66)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSI', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.66, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\91807\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52521}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 90aef8b3e705497d4e7f3bd1f3229975
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
+at parallel.StepLaunchUrl.tearDown(StepLaunchUrl.java:43)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:parallel.RunCucumberTest@5552768b]" started-at="2023-03-17T19:38:58 IST" name="tearDownClass" finished-at="2023-03-17T19:38:58 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- parallel.RunCucumberTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
